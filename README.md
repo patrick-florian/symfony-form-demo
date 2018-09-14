@@ -2,7 +2,9 @@
 A simple demo of Symfony 4 form post, includes standard post and ajax post
 
 # Basic Notes: 
-Not using NPM Or Webpack super basic (for now)
+- Not using NPM Or Webpack super basic (for now)
+- DemoFormController handles all actions
+- Routes and naming aliases defined via the controller as an Annotation
 
 # Installation Notes 
 
