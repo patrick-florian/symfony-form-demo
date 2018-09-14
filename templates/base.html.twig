@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Patrick Florian</title>
+        {% block stylesheets %}{% endblock %}
+
+        <!-- Normally would include via WebPack as an assest or resource but im crunched for time  -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/main.js"></script>
+
+    </head>
+    <body>
+      <a href="/"> Home </a>
+        {% block body %}{% endblock %}
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>
